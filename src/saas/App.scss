@@ -1,0 +1,36 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    overflow: hidden;
+    height: auto;
+    
+}
+.card_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    overflow: hidden;
+
+}
+.button_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+@media (max-width: 767px) {
+    .container{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }    
+    .card_container {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    
+}  
